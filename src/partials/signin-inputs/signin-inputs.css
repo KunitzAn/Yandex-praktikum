@@ -1,0 +1,28 @@
+.inputs-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-bottom: 65px;
+}
+.inputs-container .input-container {
+  display: flex;
+  flex-direction: column;
+}
+.inputs-container .input-container:first-child {
+  margin-bottom: 36px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-caption {
+  font-size: 14px;
+  color: #7D7D7D;
+  margin-bottom: 3px;
+}
+
+.loginOrSignin-input {
+  width: 224px;
+  height: 39px;
+  border-radius: 10px;
+  border: solid 2px #C9C9C9;
+}/*# sourceMappingURL=signin-inputs.css.map */
