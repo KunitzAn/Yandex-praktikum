@@ -1,0 +1,43 @@
+// chat-folders
+$color1: #7D7D7D;
+$color2: #94BCC9;
+$color3: #7696A0;
+$color4: #FFFFFF;
+$color5: #1E1E1E;
+
+.chat-folders{
+    display: flex;
+    flex-direction: column;
+}
+
+// chats-wrapper
+.chats-wrapper{
+    width: 265px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 23px;
+    margin-left: 40px;
+}
+// choosen-chat-field
+.choosen-chat{
+    display: flex;
+    flex-direction: column;
+    width: min-content;
+}
+
+.horizontal-line{
+    background-color: $color1;
+    height: 4px;
+    width: 900px;
+    display: block;
+    margin-top: 14px;
+    margin-left: 20px;
+}
+
+// messeges
+.messeges{
+    width: 965px;
+    height: 510px;
+    display: flex;
+    flex-direction: column-reverse;
+}

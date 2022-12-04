@@ -1,0 +1,35 @@
+.chat-folders {
+  display: flex;
+  flex-direction: column;
+}
+
+.chats-wrapper {
+  width: 265px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 23px;
+}
+
+.choosen-chat {
+  display: flex;
+  flex-direction: column;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+}
+
+.horizontal-line {
+  background-color: #7D7D7D;
+  height: 4px;
+  width: 900px;
+  display: block;
+  margin-top: 14px;
+  margin-left: 20px;
+}
+
+.messeges {
+  width: 965px;
+  height: 510px;
+  display: flex;
+  flex-direction: column-reverse;
+}/*# sourceMappingURL=chat.css.map */

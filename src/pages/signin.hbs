@@ -1,20 +1,30 @@
-<link rel="stylesheet" href="/src/styles/signin/signin.css">
+<link rel="stylesheet" href="/src/styles/style.css">
+
 <body>
-  <div class="flex-container">
-    <div class="login-header-container">
-      <span class="login-header-text">Hey you,</span>
-      <span class="login-header-text">great to see you again!</span>
+  <div class="wrapper-column">
+    <div class="flex-container">
+      <div class="sign-header-container">
+        <span class="sign-header-text">Let’s get started!</span>
+      </div>
+
+      <div class="log-signin-inputs-container">
+        {{> "signin-inputs/login-signin-input-container" parameter="Email"}}
+        {{> "signin-inputs/login-signin-input-container" parameter="Login"}}
+        {{> "signin-inputs/login-signin-input-container" parameter="Name"}}
+        {{> "signin-inputs/login-signin-input-container" parameter="Surname"}}
+        {{> "signin-inputs/login-signin-input-container" parameter="Phone"}}
+        {{> "signin-inputs/login-signin-input-container" parameter="Password"}}
+        {{> "signin-inputs/login-signin-input-container" parameter="Re-type password"}}
+
+      </div>
+
+        {{> "signin-button/signin-button" button-name="Sign in" class-name="signin-button"}}
+      
+        <div class="emptyspace"></div>
     </div>
 
-    <div class="inputs-container">
-      {{> "signin-inputs/login-signin-input-container"}}
-      {{> "signin-inputs/login-signin-input-container"}}
-    </div>
+      {{> "signin-link/signin-link" text="Already have account? " link-text="Log in!" link="./login.hbs"}}
 
-    {{> "signin-button/login-signin-button"}}
+    
+</div>
 
-  </div>
-      <div class="underline">
-      <span class="underline-text">Don’t have account? </span>
-      <a class="underline-link" href="">Get started!</a>
-    </div>

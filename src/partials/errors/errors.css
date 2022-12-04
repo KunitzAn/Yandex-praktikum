@@ -1,0 +1,21 @@
+.error-num {
+  font-size: 40px;
+  margin-top: 150px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.error-description {
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+a {
+  text-align: center;
+  text-decoration: none;
+  color: #7696A0;
+  cursor: pointer;
+}/*# sourceMappingURL=errors.css.map */

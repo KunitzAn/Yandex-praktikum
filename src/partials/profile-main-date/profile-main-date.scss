@@ -1,0 +1,28 @@
+$color1: #7D7D7D;
+$color2: #94BCC9;
+$color3: #7696A0;
+$color4: #FFFFFF;
+$color5: #1E1E1E;
+
+// main-data
+.main-data{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-left: 137px;
+    
+
+    span{
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 95px;
+    }
+}
+.photo{
+    background-color: $color1;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin-top: 42px;
+    margin-left: 58px;
+}

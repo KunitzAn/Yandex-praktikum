@@ -1,0 +1,35 @@
+.user-profile {
+  display: flex;
+  flex-direction: row;
+  margin-left: 770px;
+}
+.user-profile .photo-icon {
+  margin-left: 13px;
+  margin-top: 13px;
+}
+
+#user-btn{
+  background-color: transparent;
+  border: none;
+  display: hidden;
+}
+.user-profile-settings {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.round{
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #7D7D7D;
+  margin-bottom: 2px;
+}
+
+.profile-user-name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 28px;
+}/*# sourceMappingURL=user-profile.css.map */

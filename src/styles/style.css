@@ -1,0 +1,39 @@
+@import "/src/partials/errors/errors.css";                       /* error pages */
+@import "/src/partials/signin-button/button.css";                /* sign/log in button */
+@import "/src/partials/signin-inputs/signin-inputs.css";         /* sign/log in input */
+@import "/src/partials/profile-links/profile-links.css";         /* links in profile */
+@import "/src/partials/profile-main-date/profile-main-date.css"; /* profile photo and name */
+@import "/src/partials/back-button/back-button.css";             /* back button link */ 
+@import "/src/partials/profile-inputs/profile-inputs.css";       /* profile inputs */
+@import "/src/partials/save-button/save-button.css";             /* profile save button */
+@import "/src/partials/signin-link/signin-link.css";             /* sign/log in links */
+@import "/src/partials/profile-data-block/profile-data.css";     /* profil data fields */
+@import "/src/partials/chats-profile-link/chats-profile-link.css"; /*link to profile from chats */
+@import "/src/partials/search-chat/search-chat.css";             /* search chat input */
+@import "/src/partials/chat-wrapper/chat-wrapper.css";           /* chat wrapper */
+@import "/src/partials/user-profile/user-profile.css";           /* info about opened chat */
+@import "/src/partials/messege-input/messege-input.css";         /* input for messseges */
+@import "/src/styles/chat/chat.css";                             /* chat page */
+@import "/src/styles/login/login.css";                           /* log/sign in page */
+@import "/src/styles/profile/profile.css";                       /* profile page */
+
+body{
+    background-color: #F2FCFF;
+}
+.wrapper-column {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, -20%);
+}
+
+.wrapper-row {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, -20%);
+  }

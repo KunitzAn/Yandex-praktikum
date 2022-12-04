@@ -1,0 +1,25 @@
+<link rel="stylesheet" href="/src/styles/style.css">
+
+<body>
+    <div class="wrapper-row">
+
+        {{> "back-button/back-button" link="/src/pages/opened-chat.hbs"}}
+
+            <div class="inputs-container">
+
+                {{> "profile-data-block/profile-data-block" parameter="Email" data="what@gmail.com"}}
+                {{> "profile-data-block/profile-data-block" parameter="Login" data="what"}}
+                {{> "profile-data-block/profile-data-block" parameter="Name" data="Иван"}}
+                {{> "profile-data-block/profile-data-block" parameter="Name" data="Иван"}}
+                {{> "profile-data-block/profile-data-block" parameter="Chat name" data="Ваня"}}
+                {{> "profile-data-block/profile-data-block" parameter="Phone" data="+789067543"}}
+                
+            </div>
+
+        <div class="profile-settings">
+            {{> "profile-main-date/profile-main-date"}}
+            {{> "profile-links/profile-links"}}
+        </div>
+
+    </div>
+</body>

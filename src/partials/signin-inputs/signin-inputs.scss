@@ -7,12 +7,9 @@
     .input-container{
         display: flex;
         flex-direction: column;
+        margin-bottom: 15px;
     }
-    .input-container:first-child{
-        margin-bottom: 36px;
-        display: flex;
-        flex-direction: column;
-    }
+
 }
 
 

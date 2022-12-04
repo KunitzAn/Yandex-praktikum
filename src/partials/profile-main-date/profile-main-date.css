@@ -1,0 +1,20 @@
+.main-data {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin-left: 137px;
+}
+.main-data span {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 95px;
+}
+
+.photo {
+  background-color: #7D7D7D;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  margin-top: 42px;
+  margin-left: 58px;
+}/*# sourceMappingURL=profile-main-date.css.map */

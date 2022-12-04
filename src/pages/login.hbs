@@ -1,0 +1,23 @@
+<link rel="stylesheet" href="/src/styles/style.css">
+
+<body>
+  <div class="wrapper-column">
+    <div class="flex-container">
+      <div class="login-header-container">
+        <span class="login-header-text">Hey you,</span>
+        <span class="login-header-text">great to see you again!</span>
+      </div>
+
+      <div class="log-signin-inputs-container">
+        {{> "signin-inputs/login-signin-input-container" parameter="Email"}}
+        {{> "signin-inputs/login-signin-input-container" parameter="Password"}}
+
+      </div>
+
+      {{> "signin-button/signin-button" button-name="Log in" class-name="login-button"}}
+
+      <div class="emptyspace"></div>
+    </div>
+
+  {{> "signin-link/signin-link" text="Don’t have account?" link-text="Get started!" link="/src/pages/signin.hbs"}}
+  </div>

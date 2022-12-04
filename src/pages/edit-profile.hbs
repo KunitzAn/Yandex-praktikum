@@ -1,0 +1,27 @@
+<link rel="stylesheet" href="/src/styles/style.css">
+
+<body>
+    <div class="wrapper-row">
+
+        {{> "back-button/back-button" link="/src/pages/profile.hbs"}}
+
+            <div class="inputs-container">
+
+                {{> "profile-inputs/profile-inputs" parameter="Email"}}
+                {{> "profile-inputs/profile-inputs" parameter="Login"}}
+                {{> "profile-inputs/profile-inputs" parameter="Name"}}
+                {{> "profile-inputs/profile-inputs" parameter="Surname"}}
+                {{> "profile-inputs/profile-inputs" parameter="Chat name"}}
+                {{> "profile-inputs/profile-inputs" parameter="Phone"}}
+
+                {{> "save-button/save-button"}}
+        </div>
+
+        <div class="profile-settings">
+            {{> "profile-main-date/profile-main-date"}}
+        </div>
+
+
+
+    </div>
+</body>

@@ -1,0 +1,56 @@
+$color1: #7D7D7D;
+$color2: #94BCC9;
+$color3: #7696A0;
+$color4: #FFFFFF;
+$color5: #1E1E1E;
+
+body{
+    background-color: #F2FCFF;
+}
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, -20%);
+}
+
+// profile settings
+
+.profile-settings{
+    display: flex;
+    flex-direction: column;
+}
+
+// inputs 
+.inputs-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 191px;
+    margin-left: 300px;
+
+    .input-container{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+}
+
+.input-caption{
+    font-size: 14px;
+    color: #7D7D7D;
+    margin-bottom: 3px;
+}
+.data-field{
+    width: 224px;
+    border-radius: 10px;
+    border: solid 2px #C9C9C9;
+    background-color: $color4;
+    padding: 10px;
+
+    span{
+        font-size: 16px;
+        font-weight: bold;
+    }
+}

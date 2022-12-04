@@ -1,0 +1,20 @@
+.search-chat-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+.search-chat-wrapper img {
+  width: 25px;
+  height: 25px;
+  margin-left: 5px;
+  margin-top: 25px;
+}
+.search-chat-wrapper input {
+  width: 265px;
+  height: 39px;
+  border-radius: 27px;
+  border: #7D7D7D solid 2px;
+  margin-top: 14px;
+  margin-left: 5px;
+  padding-left: 10px;
+  font-size: 16px;
+}/*# sourceMappingURL=search-chat.css.map */

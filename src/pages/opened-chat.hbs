@@ -1,0 +1,25 @@
+<link rel="stylesheet" href="/src/styles/style.css">
+
+<body>
+    <div class="wrapper-row">
+
+    <div class="chat-folders">
+        {{> "chats-profile-link/chats-profile-link"}}
+        {{> "search-chat/search-chat"}}
+
+        <div class="chats-wrapper">
+            {{> "chat-wrapper/chat-wrapper" user-name="Мари" messege-text="Привет! Как дела?" new-messeges="1"}}
+            {{> "chat-wrapper/chat-wrapper" user-name="Егор" messege-text="Ок" new-messeges="2"}}
+
+        </div>
+    </div>
+
+    <div class="choosen-chat">
+        {{> "user-profile/user-profile"}}
+        <div class="horizontal-line"></div>
+        <div class="messeges"></div>
+        {{> "messege-input/messege-input"}}
+    </div>
+
+    </div>
+</body>

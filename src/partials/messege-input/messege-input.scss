@@ -1,0 +1,33 @@
+$color1: #7D7D7D;
+$color2: #94BCC9;
+$color3: #7696A0;
+$color4: #FFFFFF;
+$color5: #1E1E1E;
+
+
+//messege-input-wrapper
+.messege-input-wrapper{
+    display: flex;
+    flex-direction: row;
+}
+.messege-input-box{
+    width: 740px;
+    height: 38px;
+    border: solid 2px $color1;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 20px;
+    margin-left: 10px;
+}
+.messege-input-button{
+    width: 88px;
+    height: 39px;
+    background: $color3;
+    color: $color4;
+    border-radius: 12px;
+    border: none;
+    margin-left: 35px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 15px;
+}

@@ -1,0 +1,26 @@
+$color1: #7D7D7D;
+$color2: #94BCC9;
+$color3: #7696A0;
+$color4: #FFFFFF;
+$color5: #1E1E1E;
+
+// profile
+.profile{
+    display: flex;
+    flex-direction: row;
+}
+.photo-icon{
+    width: 53px;
+    height: 53px;
+    border-radius: 50%;
+    background-color: $color1;
+    display: block;
+    margin-left: 14px;
+    margin-top: 16px;
+}
+.profile-text{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 13px;
+    margin-top: 28px;
+}

@@ -1,0 +1,15 @@
+.underline {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+}
+  
+.underline-text {
+    color: #797979;
+}
+  
+.underline-link {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}

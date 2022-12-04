@@ -1,0 +1,19 @@
+.profile-links {
+  display: flex;
+  flex-direction: column;
+  margin-top: 67px;
+  margin-right: 83px;
+  margin-left: 208px;
+}
+.profile-links a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #7696A0;
+  font-size: 16px;
+  width: 130px;
+  margin-bottom: 15px;
+  text-align: right;
+}
+.profile-links a:last-child {
+  font-weight: bold;
+}/*# sourceMappingURL=profile-links.css.map */
