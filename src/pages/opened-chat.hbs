@@ -1,5 +1,5 @@
 <link rel="stylesheet" href="/src/styles/style.css">
-
+<link rel="stylesheet" href="/src/partials/links-in-modal/links-in-modal.css">
 <body>
     <div class="wrapper-row">
 
@@ -18,8 +18,21 @@
         {{> "user-profile/user-profile"}}
         <div class="horizontal-line"></div>
         <div class="messeges"></div>
-        {{> "messege-input/messege-input"}}
+        <div class="attaches-and-input-wrapper">
+            {{> "chat-label-attach/chat-label-attach"}}
+            {{> "messege-input/messege-input"}}
+        </div>
     </div>
+
+    {{> "links-boxes/edit-user-links"}}
+    {{> "add-user/add-user"}}
+    {{> "remove-user/remove-user"}}
+
+    {{> "chat-modal-attach-links/chat-modal-attach-links"}}
+
+    
 
     </div>
 </body>
+
+    

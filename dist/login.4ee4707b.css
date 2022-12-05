@@ -20,7 +20,7 @@ a {
   text-decoration: none;
 }
 
-.login-button {
+.login-button, .signin-button {
   width: 130px;
   height: 47px;
   cursor: pointer;
@@ -30,22 +30,18 @@ a {
   margin: 36px auto 0;
 }
 
-.signin-button {
-  width: 130px;
-  height: 47px;
-  cursor: pointer;
-  background-color: #b5b1b1;
-  border: 2px solid #c9c9c9;
-  border-radius: 10px;
-  margin: 0 auto;
-}
-
 .signin-button-text {
   color: #fff;
   font-size: 20px;
 }
 
-.input-container {
+.inputs-container {
+  flex-direction: column;
+  margin: 0 auto 65px;
+  display: flex;
+}
+
+.inputs-container .input-container {
   flex-direction: column;
   margin-bottom: 15px;
   display: flex;
@@ -128,7 +124,7 @@ a {
   border-radius: 10px;
 }
 
-.save-button {
+button {
   width: 130px;
   height: 47px;
   color: #fff;
@@ -200,10 +196,6 @@ a {
   margin-left: 13px;
   font-size: 20px;
   font-weight: bold;
-}
-
-.profil-link {
-  cursor: pointer;
 }
 
 .search-chat-wrapper {
@@ -283,32 +275,31 @@ a {
   margin-left: 13px;
 }
 
-#user-btn {
-  display: hidden;
-  background-color: #0000;
-  border: none;
-}
-
-.user-profile-settings {
-  cursor: pointer;
-  flex-direction: column;
-  margin-top: 20px;
-  display: flex;
-}
-
-.round {
-  width: 10px;
-  height: 10px;
-  background-color: #7d7d7d;
-  border-radius: 50%;
-  margin-bottom: 2px;
-  display: block;
+.user-profile img {
+  width: 50px;
+  height: 50px;
+  margin-top: 15px;
 }
 
 .profile-user-name {
   margin-top: 28px;
   font-size: 20px;
   font-weight: bold;
+}
+
+.user-profile-settings {
+  flex-direction: column;
+  margin-top: 17px;
+  margin-left: 10px;
+  display: flex;
+}
+
+.round {
+  width: 10px;
+  height: 10px;
+  background-color: #7696a0;
+  border-radius: 50%;
+  margin-bottom: 3px;
 }
 
 .messege-input-wrapper {
@@ -321,6 +312,7 @@ a {
   height: 38px;
   border: 2px solid #7d7d7d;
   border-radius: 10px;
+  margin-top: 20px;
   margin-left: 10px;
   padding: 20px;
   font-size: 16px;
@@ -333,10 +325,143 @@ a {
   background: #7696a0;
   border: none;
   border-radius: 12px;
-  margin-top: 15px;
   margin-left: 35px;
   font-size: 16px;
   font-weight: bold;
+  margin-right: 0 !important;
+}
+
+.edit-user-links {
+  width: 220px;
+  height: 110px;
+  background-color: #fff;
+  border: 3px solid #7696a0;
+  border-radius: 36px;
+  flex-direction: column;
+  display: flex;
+  position: absolute;
+  top: 90px;
+  left: 1000px;
+}
+
+.chat-attach-links {
+  width: 220px;
+  height: 110px;
+  background-color: #fff;
+  border: 3px solid #7696a0;
+  border-radius: 36px;
+  flex-direction: column;
+  display: flex;
+  position: absolute;
+  top: 600px;
+  left: 200px;
+}
+
+.edit-user-links:not(:target):not([open]), .chat-attach-links:not(:target):not([open]) {
+  display: none;
+}
+
+.user-link:first-child {
+  margin-top: 25px;
+}
+
+.user-link:last-child {
+  margin-top: 12px;
+  margin-bottom: 25px;
+}
+
+.closemodal-links {
+  color: #7696a0;
+  margin-top: 10px;
+  margin-left: 180px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.label-for-attaches {
+  margin-left: 20px display: block;
+  width: 20px;
+  height: 20px;
+  background-color: #7696a0;
+  border-radius: 50%;
+  margin-top: 22px;
+  padding: 5px;
+}
+
+.label-for-attaches span {
+  color: #fff;
+  margin-bottom: 4px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.chat-attach-links {
+  width: 220px;
+  height: 110px;
+  background-color: #fff;
+  border: 3px solid #7696a0;
+  border-radius: 36px;
+  flex-direction: column;
+  display: flex;
+  position: absolute;
+  top: 470px;
+  left: 300px;
+}
+
+.chat-attach-links:not(:target):not([open]) {
+  display: none;
+}
+
+.chat-attach-links .user-link:first-child {
+  margin-top: 5px;
+}
+
+.chat-attach-links .user-link {
+  margin-bottom: 5px;
+}
+
+.chat-attach-links .user-link:last-child {
+  margin-top: 0;
+}
+
+.edit-user-box {
+  width: 340px;
+  height: 316px;
+  background-color: #fff;
+  border: 6px solid #7696a0;
+  border-radius: 36px;
+  flex-direction: column;
+  display: flex;
+  position: absolute;
+  top: 200px;
+  left: 550px;
+}
+
+.add-user-box:not(:target):not([open]) {
+  display: none;
+}
+
+.edit-user-box-name {
+  margin-top: 36px;
+  margin-left: 124px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.closemodal-edit-user {
+  color: #7696a0;
+  margin-top: 30px;
+  margin-left: 7px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.input-field-edit-user-wrapper {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 50px;
 }
 
 .chat-folders {
@@ -348,6 +473,7 @@ a {
   width: 265px;
   flex-direction: column;
   margin-top: 23px;
+  margin-left: 40px;
   display: flex;
 }
 
@@ -375,19 +501,21 @@ a {
   display: flex;
 }
 
+.attaches-and-input-wrapper {
+  flex-direction: row;
+  display: flex;
+}
+
+body {
+  background-color: #f2fcff;
+}
+
 .flex-container {
   width: 340px;
   background-color: #d9d9d9;
   border-radius: 36px;
   flex-direction: column;
   margin: 135px auto 14px;
-  display: flex;
-}
-
-.log-signin-inputs-container {
-  flex-direction: column;
-  margin-bottom: 65px;
-  margin-left: 55px;
   display: flex;
 }
 
@@ -420,6 +548,35 @@ a {
   font-weight: bolder;
 }
 
+.underline {
+  text-align: center;
+  font-size: 16px;
+  display: block;
+}
+
+.underline-text {
+  color: #797979;
+}
+
+.underline-link {
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+body {
+  background-color: #f2fcff;
+}
+
+.wrapper {
+  flex-direction: row;
+  display: flex;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+}
+
 .profile-settings {
   flex-direction: column;
   display: flex;
@@ -430,6 +587,35 @@ a {
   margin-top: 191px;
   margin-left: 300px;
   display: flex;
+}
+
+.inputs-container .input-container {
+  flex-direction: column;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.input-caption {
+  color: #7d7d7d;
+  margin-bottom: 3px;
+  font-size: 14px;
+}
+
+.data-field {
+  width: 224px;
+  background-color: #fff;
+  border: 2px solid #c9c9c9;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.data-field span {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.remove-user-box:not(:target):not([open]) {
+  display: none;
 }
 
 body {

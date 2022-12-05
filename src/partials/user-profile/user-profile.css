@@ -7,29 +7,29 @@
   margin-left: 13px;
   margin-top: 13px;
 }
-
-#user-btn{
-  background-color: transparent;
-  border: none;
-  display: hidden;
-}
-.user-profile-settings {
-  display: flex;
-  flex-direction: column;
-  margin-top: 20px;
-  cursor: pointer;
-}
-.round{
-  display: block;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background-color: #7D7D7D;
-  margin-bottom: 2px;
+.user-profile img {
+  width: 50px;
+  height: 50px;
+  margin-top: 15px;
 }
 
 .profile-user-name {
   font-size: 20px;
   font-weight: bold;
   margin-top: 28px;
+}
+
+.user-profile-settings {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-top: 17px;
+}
+
+.round {
+  background-color: #7696A0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-bottom: 3px;
 }/*# sourceMappingURL=user-profile.css.map */

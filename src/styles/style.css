@@ -13,9 +13,18 @@
 @import "/src/partials/chat-wrapper/chat-wrapper.css";           /* chat wrapper */
 @import "/src/partials/user-profile/user-profile.css";           /* info about opened chat */
 @import "/src/partials/messege-input/messege-input.css";         /* input for messseges */
+@import "/src/partials/links-boxes/edit-user-links.css";
+@import "/src/partials/close-modal-x/close-modal-x.css";
+@import "/src/partials/links-in-modal/links-in-modal.css";
+@import "/src/partials/chat-label-attach/chat-label-attach.css";
+@import "/src/partials/chat-modal-attach-links/chat-modal-attach-links.css";
+@import "/src/partials/add-user/add-user.css";
+@import "/src/partials/remove-user/remove-user.css";
+
 @import "/src/styles/chat/chat.css";                             /* chat page */
 @import "/src/styles/login/login.css";                           /* log/sign in page */
 @import "/src/styles/profile/profile.css";                       /* profile page */
+
 
 body{
     background-color: #F2FCFF;

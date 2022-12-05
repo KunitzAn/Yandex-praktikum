@@ -1,0 +1,15 @@
+.user-link {
+  flex-direction: row;
+  margin-left: 14px;
+  text-decoration: none;
+  display: flex;
+}
+
+.edit-user-text {
+  color: #7696a0;
+  margin-left: 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=opened-chat.05b7c918.css.map */

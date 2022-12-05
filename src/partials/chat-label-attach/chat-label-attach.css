@@ -1,0 +1,17 @@
+.label-for-attaches{
+    margin-left: 20px
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #7696A0;
+    margin-top: 22px;
+    padding: 5px
+}
+.label-for-attaches span{
+    color: #FFFFFF; 
+    font-size: 20px;
+    font-weight: bold;
+
+    margin-bottom: 4px;
+}

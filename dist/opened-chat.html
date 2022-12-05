@@ -1,5 +1,5 @@
 <link rel="stylesheet" href="/login.4ee4707b.css">
-
+<link rel="stylesheet" href="/opened-chat.05b7c918.css">
 <body>
     <div class="wrapper-row">
 
@@ -39,18 +39,84 @@
             <span class="profile-user-name">Мари</span>
             <div class="photo-icon"></div>
         
-            <button id="user-btn"></button>
-            <label class="user-profile-settings" for="user-btn">
+            <a href="#edit-user-links" class="user-profile-settings"> 
                 <div class="round"></div>
                 <div class="round"></div>
                 <div class="round"></div>
-            </label>
+            </a>
         </div>        <div class="horizontal-line"></div>
         <div class="messeges"></div>
-        <div class="messege-input-wrapper">
-            <textarea class="messege-input-box"></textarea>
-            <button class="messege-input-button">send</button>
-        </div>    </div>
+        <div class="attaches-and-input-wrapper">
+            <a href="#chat-attach-links" class="label-for-attaches">
+                <span class="text">+</span>
+            </a>
+            
+            
+            <div class="messege-input-wrapper">
+                <textarea class="messege-input-box"></textarea>
+                <button class="messege-input-button">send</button>
+            </div>        </div>
+    </div>
+
+    <div class="edit-user-links" id="edit-user-links">
+    
+        <a class="closemodal-links" href="#!">X</a>
+        <a class="user-link" href="#add-user-info"> 
+            <span class="edit-user-text">Add user</span>
+        </a>    <a class="user-link" href="#remove-user-info"> 
+            <span class="edit-user-text">Remove user</span>
+        </a>
+    
+    </div>    <div id="add-user-info" class="edit-user-box add-user-box">
+        <span class="edit-user-box-name">Add user</span>
+    
+        <div class="input-field-edit-user-wrapper">
+            
+            <div class="input-container">
+                <span class="input-caption">Login</span>
+                <input class="loginOrSignin-input">
+            </div>
+            
+            
+            
+        </div>
+    
+        <button class="save-button">Add</button>    <a class="closemodal-edit-user" href="#!">Close</a>
+    </div>
+    <div id="remove-user-info" class="remove-user-box edit-user-box">
+        <span class="edit-user-box-name">Remove user</span>
+    
+        <div class="input-field-edit-user-wrapper">
+            
+            <div class="input-container">
+                <span class="input-caption">Login</span>
+                <input class="loginOrSignin-input">
+            </div>
+            
+            
+            
+        </div>
+    
+        <button class="save-button">Remove</button>    <a class="closemodal-edit-user" href="#!">Close</a>
+    </div>
+
+    
+    
+    <div class="chat-attach-links" id="chat-attach-links">
+    
+        <a class="closemodal-links" href="#!">X</a>
+        <a class="user-link" href="#"> 
+        <span class="edit-user-text">Photo or video</span>
+    </a> <!-- указываем id на который ведет ссылка -->
+        <a class="user-link" href="#"> 
+            <span class="edit-user-text">File</span>
+        </a>    <a class="user-link" href="#"> 
+            <span class="edit-user-text">Location</span>
+        </a>
+    </div>
+    
 
     </div>
 <script src="/opened-chat.7dde8e2b.js"></script></body>
+
+    
