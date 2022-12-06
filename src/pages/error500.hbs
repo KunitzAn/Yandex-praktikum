@@ -2,7 +2,10 @@
 <body>
     <div class="wrapper-column">
         {{> "errors/error" errorNum="500" errorDescription="We've already been fixing"}}
-        {{> "errors/link-to-chats"}}
+
+        <div class="error-link-wrapper">
+            {{> "errors/link-to-chats"}}
+        </div>
     </div>
 
 </body>

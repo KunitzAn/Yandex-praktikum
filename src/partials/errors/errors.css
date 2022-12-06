@@ -13,8 +13,11 @@
   font-weight: bold;
 }
 
-.error-link-wrapper a {
+.error-link-wrapper {
   text-align: center;
+}
+
+.error-link-wrapper a {
   text-decoration: none;
   color: #7696A0;
   cursor: pointer;
