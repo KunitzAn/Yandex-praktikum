@@ -1,0 +1,38 @@
+
+.edit-user-box{
+    border: #7696A0 6px solid;
+    width: 340px;
+    height: 316px;
+    border-radius: 36px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 200px;
+    left: 550px;
+}
+
+.add-user-box:not(:target):not([open]) { 
+    display: none; 
+}
+
+
+.edit-user-box-name{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 36px;
+    align-self: center;
+}
+.closemodal-edit-user{
+    font-size: 16px;
+    color: #7696A0;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 30px;
+    align-self: center;
+}
+.input-field-edit-user-wrapper{
+    margin-top: 20px;
+    align-self: center;
+    margin-bottom: 20px;
+}

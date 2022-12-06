@@ -1,0 +1,28 @@
+
+.chat-attach-links{
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    height: 110px;
+    border-radius: 36px;
+    background-color: white;
+    border: solid 3px #7696A0;
+    position: absolute;
+    top: 470px;
+    left: 300px
+}
+
+.chat-attach-links:not(:target):not([open]) { 
+    display: none; 
+}
+
+
+.chat-attach-links .user-link:first-child{
+    margin-top: 5px;
+}
+.chat-attach-links .user-link{
+    margin-bottom: 5px;
+}
+.chat-attach-links .user-link:last-child {
+    margin-top:0;
+}

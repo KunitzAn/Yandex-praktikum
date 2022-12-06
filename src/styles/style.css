@@ -3,24 +3,24 @@
 @import "/src/partials/signin-inputs/signin-inputs.css";         /* sign/log in input */
 @import "/src/partials/profile-links/profile-links.css";         /* links in profile */
 @import "/src/partials/profile-main-date/profile-main-date.css"; /* profile photo and name */
-@import "/src/partials/back-button/back-button.css";             /* back button link */ 
+@import "/src/partials/links/back/back-button.css";             /* back button link */ 
 @import "/src/partials/profile-inputs/profile-inputs.css";       /* profile inputs */
 @import "/src/partials/save-button/save-button.css";             /* profile save button */
-@import "/src/partials/signin-link/signin-link.css";             /* sign/log in links */
+@import "/src/partials/links/link-to-sign-or-log-in/signin-login-link.css";             /* sign/log in links */
 @import "/src/partials/profile-data-block/profile-data.css";     /* profil data fields */
 @import "/src/partials/chats-profile-link/chats-profile-link.css"; /*link to profile from chats */
 @import "/src/partials/search-chat/search-chat.css";             /* search chat input */
 @import "/src/partials/chat-wrapper/chat-wrapper.css";           /* chat wrapper */
 @import "/src/partials/user-profile/user-profile.css";           /* info about opened chat */
 @import "/src/partials/messege-input/messege-input.css";         /* input for messseges */
-@import "/src/partials/links-boxes/edit-user-links.css";
+@import "/src/partials/modals/user-settings/edit-user-links.css";
 @import "/src/partials/close-modal-x/close-modal-x.css";
-@import "/src/partials/links-in-modal/links-in-modal.css";
+@import "/src/partials/links/link-in-modals/link-in-modals.css";
 @import "/src/partials/chat-label-attach/chat-label-attach.css";
-@import "/src/partials/chat-modal-attach-links/chat-modal-attach-links.css";
-@import "/src/partials/add-user/add-user.css";
-@import "/src/partials/remove-user/remove-user.css";
-@import "/src/partials/modal-change-photo/modal-change-photo.css";
+@import "/src/partials/modals/attaches-to-messege/attaches-to-messege.css";
+@import "/src/partials/modals/add-user/add-user.css";
+@import "/src/partials/modals/remove-user/remove-user.css";
+@import "/src/partials/modals/change-photo/modal-change-photo.css";
 
 @import "/src/styles/chat/chat.css";                             /* chat page */
 @import "/src/styles/login/login.css";                           /* log/sign in page */

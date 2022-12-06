@@ -1,0 +1,3 @@
+.remove-user-box:not(:target):not([open]) {
+  display: none;
+}/*# sourceMappingURL=remove-user.css.map */
