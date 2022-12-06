@@ -3,7 +3,10 @@
 <body>
     <div class="wrapper-column">
         {{> "errors/error" errorNum="404" errorDescription="Not found"}}
-        {{> "errors/link-to-chats"}}
+        <div class="error-link-wrapper">
+            {{> "errors/link-to-chats"}}
+        </div>
+        
     </div>
 
 </body>

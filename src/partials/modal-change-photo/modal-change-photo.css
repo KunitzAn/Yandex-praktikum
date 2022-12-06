@@ -1,0 +1,48 @@
+.add-photo-link {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  display: block;
+  margin-left: 100px;
+  margin-top: 50px;
+  background-color: #7696A0;
+  width: 120px;
+  height: 25px;
+  text-align: center;
+  border-radius: 30px;
+  margin-bottom: 30px;
+}
+
+.edit-photo-modal {
+  border: #7696A0 6px solid;
+  width: 330px;
+  height: 300px;
+  border-radius: 36px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 280px;
+  left: 760px;
+}
+
+.edit-photo-modal:not(:target):not([open]) {
+  display: none;
+}
+
+.edit-photo-box-name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 36px;
+  margin-left: 90px;
+}
+
+.closemodal-add-photo {
+  font-size: 16px;
+  color: #7696A0;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 145px;
+  margin-top: 40px;
+}/*# sourceMappingURL=modal-change-photo.css.map */

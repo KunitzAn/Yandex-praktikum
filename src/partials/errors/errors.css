@@ -13,7 +13,7 @@
   font-weight: bold;
 }
 
-a {
+.error-link-wrapper a {
   text-align: center;
   text-decoration: none;
   color: #7696A0;

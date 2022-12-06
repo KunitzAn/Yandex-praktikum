@@ -20,6 +20,7 @@
 @import "/src/partials/chat-modal-attach-links/chat-modal-attach-links.css";
 @import "/src/partials/add-user/add-user.css";
 @import "/src/partials/remove-user/remove-user.css";
+@import "/src/partials/modal-change-photo/modal-change-photo.css";
 
 @import "/src/styles/chat/chat.css";                             /* chat page */
 @import "/src/styles/login/login.css";                           /* log/sign in page */
@@ -45,4 +46,7 @@ body{
     left: 50%;
     top: 20%;
     transform: translate(-50%, -20%);
-  }
+}
+a{
+    text-decoration: none;
+}
